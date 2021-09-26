@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: sentinel
+  cloud:
+    config:
+      uri: http://localhost:8888/scca-config-server/
+      profile: dev
+      label: master
+
+
